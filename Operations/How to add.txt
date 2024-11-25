@@ -1,0 +1,10 @@
+﻿Place in this folder new class 
+
+Example: 
+
+public class Multiplication : IOperation
+{
+    public string Name => "multiply";
+
+    public double Execute(double a, double b) => a * b;
+}
